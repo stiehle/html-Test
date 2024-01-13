@@ -1,0 +1,110 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #1b1b32;
+  color: #f5f6f7;
+  font-family: Tahoma;
+  font-size: 16px;
+}
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+h1,
+p {
+  margin: 1em auto 0 auto;
+  text-align: center;
+}
+form {
+  margin: 0 auto;
+  max-width: 500px;
+  min-width: 300px;
+  width: 60vw; /*stands for viewport width. This unit is based on the width of the viewport. A value of 1vw is equal to 1% of the viewport width. */
+  padding: 0.5em;
+  padding-top: 0;
+  padding-bottom: 2em;
+}
+fieldset {
+  border: none;
+  padding: 0.5rem 0;
+  border-bottom: 3px solid #3b3b4f;
+}
+fieldset:last-of-type {
+  border-bottom: none;
+}
+/* input,
+textarea,
+select {
+  margin-top: 10px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+} */
+input,
+textarea,
+select {
+  margin: 5px 0;
+  margin-bottom: 0;
+  width: 100%;
+  min-height: 2em;
+}
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+input,
+textarea {
+  background-color: #848493;
+  border: 1px solid #0a0a23;
+  color: #ffffff;
+  min-height: 2em;
+}
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #3b3b4f;
+  border-color: white;
+  min-width: 300px;
+}
+input[type="file"] {
+  padding: 1px 2px;
+}
+a {
+  color: #dfdfe2;
+}
+.registration {
+  width: 600px;
+  background-color: burlywood;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  min-width: 500px;
+}
+hr {
+  width: 80%;
+  height: 1px;
+  background-color: #848493;
+  border-color: white;
+  margin: 1;
+}
+fieldset[name="account-type"] {
+  width: 50%;
+  border: 1px solid;
+  border-radius: 1rem;
+  border-width: 3px;
+  border-color: #848493;
+
+  text-align: center;
+  min-width: 300px;
+  margin: 10px auto;
+}
+textarea {
+  background-color: rgb(236, 243, 174);
+  color: blue;
+}
